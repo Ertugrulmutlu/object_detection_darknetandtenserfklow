@@ -6,8 +6,9 @@
   Yapmanız gerekenler:
   
     1- Dosyaları bir klasöre atınız,
-    2- Cmd ile .py ile başlayan dosyanızı başlatın (Örneğin: python object_detection.py --config=yolo.cfg --weights=yolo.weight),
-    3- Program çalışırken kamera izni isteyecek eğer istemezse çalışacak.
+    2- İnternetten indirdiğiniz "coco.names", "*.weights" , "*.config" dosyalarını klasöre atın,
+    3- Cmd ile .py ile başlayan dosyanızı başlatın (Örneğin: python object_detection.py --config=yolo.cfg --weights=yolo.weight),
+    4- Program çalışırken kamera izni isteyecek eğer istemezse çalışacak.
     
   Kendi modelinizi kullanmak için:
   
@@ -24,8 +25,9 @@
   How to works:
   
     1- Extract the files in folder
-    2- With cmd, start .py file (Example:python object_detection.py --config=yolo.cfg --weights=yolo.weight )
-    3- When the program is running, it will ask for camera permission, if it doesn't, it will work. 
+    2- Put in to folder, "coco.names", "*.weights" , "*.config" files download from internet,
+    3- With cmd, start .py file (Example:python object_detection.py --config=yolo.cfg --weights=yolo.weight),
+    4- When the program is running, it will ask for camera permission, if it doesn't, it will work. 
     
  How to use program with own model:
  
