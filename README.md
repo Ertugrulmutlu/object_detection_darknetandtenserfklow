@@ -22,11 +22,13 @@
   Real time object detection by working with webcam
   
   How to works:
+  
     1- Extract the files in folder
     2- With cmd, start .py file (Example:python object_detection.py --config=yolo.cfg --weights=yolo.weight )
     3- When the program is running, it will ask for camera permission, if it doesn't, it will work. 
     
  How to use program with own model:
+ 
     1- Replace the ".cfg" file with its own ".cfg" file,
     2- Replace the ".weights" file with its own ".weights" file,
     3- Delete the file named "coco.names" or remove it from the folder,
